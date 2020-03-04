@@ -1,0 +1,35 @@
+.button {
+  width: 28px;
+  height: 28px;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding-top: 2px;
+}
+#previous {
+  background-color: black;
+  color: #f8f7f8;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+#previous:hover {
+  background-color: rgb(60,60,60);
+  color: #f8f7f8;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+#next {
+  background-color: black;
+  color:  #f8f7f8;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+#next:hover {
+  background-color: rgb(60,60,60);
+  color: #f8f7f8;
+  font-size: 1.2em;
+  font-weight: bold;
+}
