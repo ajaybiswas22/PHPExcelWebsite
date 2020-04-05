@@ -1,7 +1,9 @@
+<img src="https://github.com/ajaybiswas22/PHPExcelWebsite/blob/master/SourceCode/images/homeim.png" width="150" height="150">
+
 # PHPExcelWebsite
 This website is intended for individuals or small business owners who want fast and clutter-free websites without paying a single penny. The websites build from this package uses excel files as databases along with PHP for the backend. The frontend uses HTML, CSS, and Bootstrap. The resulting websites will have features such as login, register, forgot password, comment box, quick links, search-bar, etc. At the admin side, features such as track activities, block users, disable the comment section, etc will be present. A handy web page creator is provided for the admin to quickly upload webpages for their dream website.
 
-How to use this package
+## How to use this package
 
 1. Directly upload to your directory which is running on the php server. 
 2. Two sample webpages are created (Computer Science and Question Papers), you can edit or delete them. 
@@ -16,26 +18,30 @@ How to use this package
 11. Modify the encryption key 'SECURE_KEYssssss' in login.php, logout.php in login folder and index_login_status, login_status in the phpindex folder to a secret key not known to the outside world.
 12. Lock folders (inaccesible to outside world) phpindex, logs, dependencies, userlinking(or your dynamic page directory), login directory except login.php, register.php, index.php, and forgotpassword.php.
 
-Limitations of this package
+## Limitations of this package
 
 1. This package may not be suitable for websites having millions of user accounts.
 2. May cause server to slow down if thousands of users are online at once.
 3. Uses cookies and php sessions for tracking user activity.
 4. Limited page area for hosting ads. But can support wide range of ads when the masterformat file is edited.
 
-Advantages of this package
+## Advantages of this package
 
 1. Provide security features like blocking sql and html injections.
 2. Restricts simultaneous loggings.
-3. Has a bulit in comment box which can be disabled or removed.
+3. Has a built-in comment box which can be disabled or removed.
 4. Uses encryptions to prevent attacks even if ssl is not present.
-5. Easy database maintainance due to excel.
+5. Easy database maintainance due to excel support.
 
-Other packages used
+## Other packages used
 
-1. SimpleXLXS
-2. XLXSWriter
+1. [SimpleXLXS](https://github.com/shuchkin/simplexlsx)
+2. [XLXSWriter](https://github.com/mk-j/PHP_XLSXWriter)
 
-Images are taken from Unsplash.
+## Images are taken from Unsplash.
 
-After your dream website is build, please credit the developer "Ajay Biswas" for providing this wonderful website builder.
+After your dream website is built, please credit the developer "Ajay Biswas" for providing this wonderful website builder.
+
+## License
+
+Licensed under [GNU General Public License](LICENSE).
